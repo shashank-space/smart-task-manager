@@ -1,16 +1,195 @@
-# React + Vite
+# Smart Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Task Management application built with **React** and **Vite**. This application helps users organize their daily tasks efficiently with features like categories, priorities, due dates, filtering, search functionality, dashboard analytics, and local storage persistence.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+### Task Management
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Add new tasks
+* Edit existing tasks
+* Delete tasks
+* Mark tasks as completed
 
-## Expanding the ESLint configuration
+### Organization
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Task Categories (Study, Work, Personal)
+* Priority Levels (Low, Medium, High)
+* Due Date & Time
+* Duration Tracking (Estimated Hours)
+
+### Productivity Tools
+
+* Search Tasks
+* Filter Tasks
+
+  * All Tasks
+  * Active Tasks
+  * Completed Tasks
+
+### Dashboard Analytics
+
+* Total Tasks
+* Completed Tasks
+* Pending Tasks
+* Planned Hours
+
+### User Experience
+
+* Modern Glassmorphism UI
+* Responsive Design
+* Hover Effects
+* Smooth Animations
+* Mobile-Friendly Layout
+
+### Data Persistence
+
+* Local Storage Integration
+* Tasks remain saved after page refresh
+
+---
+
+## 🛠️ Technologies Used
+
+* React
+* JavaScript (ES6+)
+* Vite
+* CSS3
+* React Hooks
+
+  * useState
+  * useEffect
+* Local Storage API
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── Dashboard.jsx
+│   ├── FilterBar.jsx
+│   ├── TaskInput.jsx
+│   ├── TaskItem.jsx
+│   └── TaskList.jsx
+│
+├── App.jsx
+├── App.css
+├── main.jsx
+
+public/
+└── index.html
+
+package.json
+README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/smart-task-manager.git
+```
+
+### Navigate to Project Directory
+
+```bash
+cd smart-task-manager
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+The application will run locally at:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 🏗️ Production Build
+
+Create a production-ready build:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 📸 Screenshots
+
+Add screenshots of your application here after deployment.
+
+Example:
+
+```text
+screenshots/dashboard.png
+screenshots/tasks.png
+```
+
+---
+
+## 🌐 Deployment
+
+This project can be deployed using:
+
+* Vercel
+* Netlify
+
+### Vercel Deployment
+
+1. Push project to GitHub
+2. Import repository into Vercel
+3. Deploy with default Vite settings
+
+---
+
+## 📚 Learning Outcomes
+
+This project demonstrates:
+
+* React Component Architecture
+* JSX Syntax
+* State Management using useState
+* Side Effects using useEffect
+* Local Storage Integration
+* Component Reusability
+* Responsive UI Design
+* Frontend Project Deployment
+
+---
+
+## 👨‍💻 Author
+
+**Shashank Shekhar Prakash**
+
+B.Tech CSE Student | Frontend & Full-Stack Development Enthusiast
+
+---
+
+## 📄 License
+
+This project is developed for educational and learning purposes.
